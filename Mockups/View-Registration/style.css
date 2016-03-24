@@ -18,10 +18,18 @@ h1 {
 	margin: 0px;
 }
 
-.section {
+div.section {
 	margin: 20px;
 	padding: 20px;
 
 	background-color: #ffffff;
 	opacity: 0.9;
+}
+
+table.center-aligned { 
+	margin: 0px auto;
+}
+
+td.right-aligned { 
+	text-align: right;
 }
