@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <h1>The Assistant</h1>
   <title>TheAssistant</title>
+  <link rel="stylesheet" href="//TheAssistant.com/assets/bootstrap.css">
+  <link rel="stylesheet" href="//TheAssistant.com/assets/bootstrap-theme.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<nav>
+  <ul>
+    <li>
+       <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">Contact Us</a>
+    </li>
+    <li>
+      <a href="#">About Us</a>
+    </li>
+    <li>
+      <a href="#">Send to friend</a>
+    </li>
+    <li>
+      <a href="#">Log out</a>
+    </li>
+  </ul>
+</nav>
 
-<%= yield %>
+</html>
+
+<div class="container">
+  <%= yield %>
+</div>
+
+<footer>
+  <div class="container">
+    The Assistant
+  </div>
+</footer>
+<script src="//TheAssistant.com/assets/bootstrap.js"></script>
 
 </body>
-</html>
