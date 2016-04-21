@@ -1,0 +1,143 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+nav {
+  
+
+  width: 100%;
+
+  margin: 20px 0; }
+
+nav ul {
+
+  list-style: none;
+
+  overflow: hidden; }
+
+nav ul li {
+
+  float: left;
+  font-family: Impact, Charcoal, sans-serif;
+  width: 20%; }
+  
+
+nav ul li a {
+  
+
+  text-align: center;
+
+  padding: 8px 0;
+
+  display: block;
+
+  width: 100%;
+
+  background: #0086b3; /* Old browsers */
+
+  background: -moz-linear-gradient(top,  #0086b3 0%,  #0086b3 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00bfff), color-stop(100%,#00bfff)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  #0086b3 0%, #0086b3 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #0086b3 0%, #0086b3 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom,  #0086b3 0%, #0086b3 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #0086b3', endColorstr=' #0086b3',GradientType=0 ); /* IE6-9 */
+
+  endColorstr=' #0086b3',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+  color: #000;
+
+  text-decoration: none; }
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  background:#33ccff; /* Old browsers */
+
+  background: -moz-linear-gradient(top, #33ccff 0%, #33ccff 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#33ccff), color-stop(100%,#33ccff)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #33ccff 0%,#33ccff 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #33ccff 0%,#33ccff 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom, #33ccff 0%,#33ccff 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ccff', endColorstr='#33ccff',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav ul li:first-child a {
+
+  border-top-left-radius: 8px;
+
+  border-bottom-left-radius: 8px; }
+
+nav ul li:last-child a {
+
+  border-top-right-radius: 8px;
+
+  border-bottom-right-radius: 8px; }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+}
+  
+  
+  
